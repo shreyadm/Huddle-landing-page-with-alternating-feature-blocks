@@ -1,0 +1,173 @@
+
+/*  Title section */
+.logo{
+    width: 200px;
+    height: 30px;
+}
+#title{
+    background-color: aliceblue;
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
+.navbar{
+    padding: 4% 7% 3% 7%;
+}
+
+.nav-btn{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 0px;
+    height: 50px;
+    width: 190px;
+    position: absolute;
+    right: 20px;
+}
+.header{
+    padding: 3% 7% 3% 5%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    padding-right: 15%;
+    padding-top: 15%;
+    padding-bottom: 3%;
+}
+
+.info{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.5px; 
+    color: hsl(192, 100%, 9%);
+    padding-right: 10%;
+    line-height: 1.5;
+    padding-bottom: 6%;
+}
+
+.title-button{
+    background-color:hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40px;
+    border: 0px;
+    height: 50px;
+    width: 290px;
+    position: absolute;
+    left: 30px;
+
+}
+
+.header-img{
+    width: 600px;
+}
+
+/* cards section */
+#cards{
+    background-color: white;
+    padding: 8% 7% 8% 5%;
+}
+
+.card{
+    padding: 3% 5% 3% 5%;
+    height: 400px;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+.card-body{
+    width: 500px;
+    padding: 15% 3% 5% 7%;
+
+}
+
+.card2{
+    padding: 11% 0% 6% 8%;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-weight: 500;
+}
+
+/* CTA section */
+
+.cta-card{
+    /* margin-left: 27%;
+    position: absolute;
+    width: 600px;
+    height: 200px; */
+
+    padding-top: 50px;
+    margin-left: 27%;
+    position: absolute;
+    z-index: 1;
+    top: 2000px;
+    width: 600px;
+    height: 200px;
+}
+
+.t1{
+    padding-left: 14%;
+}
+
+.cta-button{
+    background-color:hsl(322, 100%, 66%);
+    margin-top: 5% ;
+    margin-left: 18%;
+    color: hsl(193, 100%, 96%);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40px;
+    border: 0px;
+    height: 50px;
+    width: 290px;
+}
+
+/* Contact section */
+#contact{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 7%;
+}
+
+.logo-contact{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+td{
+    padding-top: 5%;
+    padding: 9px;
+}
+
+.column-2{
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 41px;
+}
+
+.social-logo{
+    width: 30px;
+    height: 30px;
+    margin: 13% 3% 2%;
+}
+
+.copyrights{
+    margin-top: 55%;
+    margin-bottom: 20%;
+    margin-left: 8%;
+}
+*********************************************************************************************
+ @media (max-width: 575px){
+   html{
+       text-align: right;
+   }
+}  
